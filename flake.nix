@@ -18,7 +18,7 @@
   outputs = inputs @ { nixpkgs, home-manager, ... }:
     let
       system = "x86_64-linux";
-      username = "daniel"; # Change this if your installer user has another name.
+      username = "daniel"; 
       hostname = "workstation";
     in {
       nixosConfigurations.${hostname} = nixpkgs.lib.nixosSystem {
