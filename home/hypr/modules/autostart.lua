@@ -1,0 +1,6 @@
+hl.exec_once("dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP XDG_SESSION_TYPE")
+hl.exec_once("systemctl --user import-environment WAYLAND_DISPLAY XDG_CURRENT_DESKTOP XDG_SESSION_TYPE")
+hl.exec_once("mako")
+hl.exec_once("nm-applet --indicator")
+hl.exec_once("wl-paste --type text --watch cliphist store")
+hl.exec_once("wl-paste --type image --watch cliphist store")
