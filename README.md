@@ -1,6 +1,6 @@
 # nixos-main
 
-1. Install NixOS to the 4 TB drive.
+1. Install NixOS to the Nvme drive.
 2. Choose no desktop environment in the installer.
 3. Use XFS when partitioning/formatting.
 4. Boot into the new NixOS system once.
