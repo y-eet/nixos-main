@@ -1,4 +1,8 @@
-# nixos-main
+# nixos
+
+My personal NixOS configuration.
+
+
 
 1. Install NixOS to the Nvme drive.
 2. Choose no desktop environment in the installer.
@@ -7,8 +11,8 @@
 5. Pull your config from GitHub, for example:
 
    ```bash
-   git clone https://github.com/y-eet/nixos-main.git ~/nixos-main
-   cd ~/nixos-main
+   git clone https://github.com/y-eet/nixos.git ~/nixos
+   cd ~/nixos
    ```
 
 6. Replace the placeholder hardware file with the generated one:
